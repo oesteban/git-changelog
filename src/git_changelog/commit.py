@@ -278,19 +278,23 @@ class AngularConvention(CommitConvention):
     """Angular commit message convention."""
 
     TYPES: ClassVar[dict[str, str]] = {
+        "add": "Enhancements, new features, and additions",
         "build": "Build",
         "chore": "Chore",
-        "ci": "Continuous Integration",
+        "ci": "Maintenance and Continuous Integration",
         "deps": "Dependencies",
         "doc": "Docs",
         "docs": "Docs",
-        "feat": "Features",
+        "enh": "Enhancements, new features, and additions",
+        "feat": "Enhancements, new features, and additions",
         "fix": "Bug Fixes",
+        "maint": "Maintenance and Continuous Integration",
         "perf": "Performance Improvements",
-        "ref": "Code Refactoring",
-        "refactor": "Code Refactoring",
+        "ref": "Maintenance and Continuous Integration",
+        "refactor": "Maintenance and Continuous Integration",
         "revert": "Reverts",
         "style": "Style",
+        "sty": "Style",
         "test": "Tests",
         "tests": "Tests",
     }
